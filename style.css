@@ -242,7 +242,7 @@ html{scroll-behavior: smooth;}
 .hero-content {
     padding: 220px 0;
     background: url("image/bgi1.jpeg") no-repeat;
-    background-size: cover;
+    background-size: 100% 82.5%;
     
     
 }
