@@ -52,6 +52,14 @@ html{scroll-behavior: smooth;}
 .site-header figure img {
     max-width: 100%;
 }
+    #logo_scit{  position: relative;
+        top:0;
+        right: 0;
+        
+        background:transparent;
+        display: inline;
+    }
+
 
 /*------------------------------------------------------------
 ## header-bar
@@ -93,7 +101,7 @@ html{scroll-behavior: smooth;}
 }
 
 .hamburger-menu span {
-    display: block;
+    display: inline;
     position: absolute;
     height: 2px;
     width: 100%;
@@ -196,7 +204,7 @@ html{scroll-behavior: smooth;}
         top: auto;
         right:24%;
         height: auto;
-        padding-right: 35px;
+        padding-right: 20px;
         background: transparent;
     }
 
@@ -220,9 +228,8 @@ html{scroll-behavior: smooth;}
     }
 
     .site-navigation ul li:nth-last-of-type(1) {
-        padding-left: 0px;
+        padding-left: 0;
     }
-
     .site-navigation ul li a {
         font-weight: bold;
         color: #fff;
@@ -236,6 +243,7 @@ html{scroll-behavior: smooth;}
     padding: 220px 0;
     background: url("image/bgi1.jpeg") no-repeat;
     background-size: cover;
+    
     
 }
 .overlay:before {
@@ -328,16 +336,16 @@ html{scroll-behavior: smooth;}
 ## hero-content entry-footer
 ------------------------------------------------------------*/
 .hero-content .entry-footer {
-    margin-top: 125px;
+    margin-top: 0px;
     text-align: center;
 }
 
 .hero-content .entry-footer .btn {
-    background: hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 83%);
     padding: 16px 40px;
     border-radius: 0;
     margin-right: 20px;
-    color: hsl(0, 0%, 17%);
+    color: hsl(173, 67%, 5%);
     font-weight: 600;
 }
 
@@ -523,6 +531,12 @@ html{scroll-behavior: smooth;}
     font-weight: 600;
     color: hsl(0, 0%, 0%);
 }
+.about{font-size: 15px;
+    
+    color: hsl(0, 0%, 9%);
+}
+.about p{text-align: justify;
+background: white;}
 
 /*------------------------------------------------------------
 ## the-complete-lineup-artists
